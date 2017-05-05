@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+/**可在aidl方法中定义tag  1.in 表示数据只能从客户端流向服务端。 2.out 表示数据只能从服务端流向客户端 3. inout 表示数据的双向流通**/
 
 /**此为aidl客户端代码，aidl服务端代码编译成apk放在assets包中**/
 public class MainActivity extends Activity implements OnClickListener {
